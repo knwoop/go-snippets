@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: var (...)
+# key: vars
+# contributor : @knwoop
+# --
+var (
+	${1:name} ${2:type}$0
+)

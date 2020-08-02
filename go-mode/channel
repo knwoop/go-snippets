@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: channel
+# key: channel
+# contributor : @knwoop
+# --
+${1:c} := make(chan ${2:type})
+$0
