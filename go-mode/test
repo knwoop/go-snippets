@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: test
+# key: test
+# contributor : @knwoop
+# --
+func Test$1(t *testing.T) {
+	$0
+}
