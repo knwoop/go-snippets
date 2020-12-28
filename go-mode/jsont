@@ -3,4 +3,4 @@
 # key: jsont
 # contributor : @knwoop
 # --
-`json:"$1"`
+\`json:"$1"\`
