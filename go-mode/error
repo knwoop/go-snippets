@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: error
+# key: err
+# contributor : @knwoop
+# --
+if err != nil {
+	$0
+}

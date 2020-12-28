@@ -4,5 +4,6 @@
 # contributor : @knwoop
 # --
 func Test$1(t *testing.T) {
-	$0
+	t.Parallel()
+        $0
 }

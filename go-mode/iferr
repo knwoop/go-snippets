@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: if error
+# key: iferr
+# contributor : @knwoop
+# --
+if ${1:err} != nil { ${2:...} }

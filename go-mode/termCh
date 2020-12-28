@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: term Channle
+# key: termCh
+# contributor : @knwoop
+# --
+termCh := make(chan os.Signal, 1)
+signal.Notify(termCh, syscall.SIGTERM, syscall.SIGINT)
+
+select {
+case <-termCh:
+}

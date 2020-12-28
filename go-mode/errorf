@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: errorf
+# key: errf
+# contributor : @knwoop
+# --
+if err != nil {
+	return fmt.Errorf("$0: %w", err)
+}

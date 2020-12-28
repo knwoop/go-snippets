@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ctxb
+# key: ctxb
+# contributor : @knwoop
+# --
+context.Background()

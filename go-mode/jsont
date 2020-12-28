@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: jsont
+# key: jsont
+# contributor : @knwoop
+# --
+`json:"$1"`

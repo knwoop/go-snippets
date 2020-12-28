@@ -3,15 +3,11 @@
 # key: tests
 # contributor : @knwoop
 # --
-tests := []struct {
-	expected
-}{
-	{},
-}
+tests := map[string]struct{}{}
 
-for n, tt := range tests {
-	actual :=
-	if tt.expected != actual {
-		t.Errorf("#%d want %v, got %v", n, tt.expected, actual)
-	}
+for name, tt := range tests {
+	tt := tt
+        t.Run(name, func(t *testing.T){
+        	t.Parallel()
+        })
 }
