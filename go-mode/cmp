@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: cmp
+# key: cmp
+# contributor : @knwoop
+# --
+if diff := cmp.Diff(tt.want, got); diff != "" {
+	t.Fatalf("\n (-want, +got)\n%s", diff)
+}
